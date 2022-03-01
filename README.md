@@ -1,5 +1,8 @@
 # jigsaw_rate_toxic_comments
-##Project statement and Motivation: Given comments in text format, rate the severity of the toxicity of the comment. The final task is to give scores to pairs of comments such that the one annotated to be more toxic gets a higher score and the one annotated to be less toxic gets a lower score.
+## Project statement and Motivation: Given comments in text format, rate the severity of the toxicity of the comment. The final task is to give scores to pairs of comments such that the one annotated to be more toxic gets a higher score and the one annotated to be less toxic gets a lower score. 
+
+## Blog Post:
+In this blog post, I go through the details of the project: https://mai-elkady.medium.com/scoring-toxic-comments-%EF%B8%8E-e9025c4745f
 
 ## Libraries:
 - matplotlib==3.2.2
