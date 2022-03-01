@@ -15,6 +15,13 @@
 - tfidf_and_ridge.ipynb: Notebook that contains the main analysis, training functions and results.
 - LICENSE: contains the license
 
+## Data:
+Data is available on Kaggle, the datasets I have used are:
+- https://www.kaggle.com/c/jigsaw-toxic-severity-rating/data
+- https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data
+- https://www.kaggle.com/rajkumarl/ruddit-jigsaw-dataset
+- https://www.kaggle.com/nkitgupta/jigsaw-regression-based-data
+
 ## Summary of results: 
 During my training process, I saved the parameters that lead to the highest average validation accuracy (across 3 versions of the dataset) for each dataset. For all 3 datasets the best analyzer was char_wb with an ngram range between 3 and 5, and the regularization parameter for the ridge regressor is what varried from one dataset to another, For jigsaw, it was 1, for Ruddit, it was 0.1 and for alternative jigsaw dataset, it was 10. The average validation accuracy for these 3 datasets respectively was 0.6811, 0.6229 and 0.6732.
 
